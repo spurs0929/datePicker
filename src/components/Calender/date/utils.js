@@ -61,7 +61,7 @@ export function getNextMonthRestDays(year, month){
  * @param {日} date 
  * @returns 20xx-0x-0x
  */
-function getFormDate(year, month, date){
+export function getFormDate(year, month, date){
   const dateArr = [ year, month, date ];
   dateArr.forEach((item, index) => {
     dateArr[index] < 10 && (dateArr[index] = '0' + dateArr[index]);
