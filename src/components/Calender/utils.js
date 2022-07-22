@@ -1,4 +1,8 @@
-// 創建tr元素
+/**
+ * 創建tr
+ * @param {數目} count 
+ * @returns 
+ */
 export function createTrs(count){
   const trArr = [];
 
