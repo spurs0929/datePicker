@@ -1,7 +1,7 @@
-import MyCalender from './components/Calender';
+import MyCalendar from './components/Calendar';
 
 (() => {
-  MyCalender('#app', (date) => {
+  MyCalendar('#app', (date) => {
     console.log(date);
   });
 })();
